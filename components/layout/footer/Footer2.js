@@ -6,12 +6,11 @@ export default function Footer2() {
             <footer className="footer footer-style-2 mt-50">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-3 col-sm-12 footer-1"><Link href="/"><img alt="Nivia" src="/assets/imgs/template/logo-black.svg" /></Link>
+                        <div className="col-md-3 col-sm-12 footer-1"><Link href="/"><img alt="Pondok Programmer" src="/assets/imgs/template/logo-black.svg" /></Link>
                             <div className="mt-20 mb-20">
-                                <p className="text-md neutral-700"><span className="neutral-1000">Phone:</span> (000) 123 456 789</p>
-                                <p className="text-md neutral-700"><span className="neutral-1000">Email:</span> youremail@gmail.com</p>
-                                <p className="text-md neutral-700"><span className="neutral-1000">Address:</span> 102 Seddon Park,
-                                    Hamilton New Zealnd</p>
+                                <p className="text-md neutral-700"><span className="neutral-1000">Phone:</span> (895)02433722</p>
+                                <p className="text-md neutral-700"><span className="neutral-1000">Email:</span> pondokprogrammer@gmail.com</p>
+                                <p className="text-md neutral-700"><span className="neutral-1000">Address:</span> Gegunung, Tirtohargo, Kretek, Bantul, Daerah Istimewa Yogyakarta 55772</p>
                             </div>
                             <h6>Newsletter</h6>
                             <div className="form-newsletter">
@@ -77,7 +76,7 @@ export default function Footer2() {
                     <div className="footer-bottom mt-50">
                         <div className="row">
                             <div className="col-md-6">
-                                <p className="text-sm neutral-600">Copyright © 2023 Nivia. All rights reserved.</p>
+                                <p className="text-sm neutral-600">Copyright © 2025 Nov Pondok Programmer Batch 16. All rights reserved.</p>
                             </div>
                             <div className="col-md-6 text-md-end text-start">
                                 <ul className="menu-bottom-footer">
