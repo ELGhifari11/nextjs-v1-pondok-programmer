@@ -7,9 +7,8 @@ export default function Footer4() {
                 <div className="container">
                     <div className="box-newsletter">
                         <div className="newsletter-left">
-                            <h2>Join our community</h2>
-                            <p className="text-md neutral-600">Work smarter with this time management and not hard join our
-                                newsletter for a better expertrience</p>
+                            <h2>Collab with us</h2>
+                            <p className="text-md neutral-600">Send us your requirements and we’ll get back to you with a tailored plan.</p>
                         </div>
                         <div className="newsletter-right">
                             <form action="#">
