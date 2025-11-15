@@ -1,97 +1,19 @@
-'use client'
+
 import Link from 'next/link'
-import { useState } from 'react'
 
 export default function Section11() {
-    const [isActive, setIsActive] = useState({
-        status: false,
-        key: 1,
-    })
-
-    const handleClick = (key) => {
-        if (isActive.key === key) {
-            setIsActive({
-                status: false,
-            })
-        } else {
-            setIsActive({
-                status: true,
-                key,
-            })
-        }
-    }
     return (
         <>
 
-            <section className="section-box box-faqs-3">
+            <section className="section-box box-ready-started">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-5">
-                            <div className="box-faq-left"><Link className="btn btn-brand-4-sm" href="#">Frequently Asked Questions</Link>
-                                <h2 className="heading-2 mb-20 mt-20">Do you have any questions?</h2>
-                                <p className="text-lg neutral-700">Below you’ll find answers to the most common questions you
-                                    may have on Nivia Platform  Online Advertising. Also, please feel free to check out our
-                                    Facebook  Google Advertising Guides  Academy. If you still can’t find the answer
-                                    you’re looking for, just <Link className="text-18-bold brand-1-1" href="#">Contact us</Link></p>
-                            </div>
-                        </div>
-                        <div className="col-lg-7">
-                            <div className="accordion accordion-flush accordion-style-2" id="accordionFAQS">
-                                <div className="accordion-item">
-                                    <h2 className="accordion-header" id="flush-headingOne" onClick={() => handleClick(1)}>
-                                        <button className={isActive.key == 1 ? "accordion-button " : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">What audiences can I target when creating my
-                                            Facebook campaigns?</button>
-                                    </h2>
-                                    <div className={isActive.key == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} id="flush-collapseOne" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFAQS">
-                                        <div className="accordion-body">
-                                            <p>Discover what sets this apart as the market's easiest and most powerful video
-                                                interviewing platform, and why hiring managers consistently choose us over
-                                                the competition. Discover what sets this apart as the market's easiest and
-                                                most powerful video interviewing platform, and why hiring managers
-                                                consistently choose us over the competition</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="accordion-item">
-                                    <h2 className="accordion-header" id="flush-headingTwo" onClick={() => handleClick(2)}>
-                                        <button className={isActive.key == 2 ? "accordion-button " : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Can you provide benchmarks for Facebook
-                                            advertising costs?</button>
-                                    </h2>
-                                    <div className={isActive.key == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} id="flush-collapseTwo" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFAQS">
-                                        <div className="accordion-body">Discover what sets this apart as the market's easiest
-                                            and most powerful video interviewing platform, and why hiring managers
-                                            consistently choose us over the competition. Discover what sets this apart as
-                                            the market's easiest and most powerful video interviewing platform, and why
-                                            hiring managers consistently choose us over the competition</div>
-                                    </div>
-                                </div>
-                                <div className="accordion-item">
-                                    <h2 className="accordion-header" id="flush-headingThree" onClick={() => handleClick(3)}>
-                                        <button className={isActive.key == 3 ? "accordion-button " : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Where will my Google Ads be shown?</button>
-                                    </h2>
-                                    <div className={isActive.key == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} id="flush-collapseThree" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFAQS">
-                                        <div className="accordion-body">Discover what sets this apart as the market's easiest
-                                            and most powerful video interviewing platform, and why hiring managers
-                                            consistently choose us over the competition. Discover what sets this apart as
-                                            the market's easiest and most powerful video interviewing platform, and why
-                                            hiring managers consistently choose us over the competition</div>
-                                    </div>
-                                </div>
-                                <div className="accordion-item">
-                                    <h2 className="accordion-header" id="flush-headingFour" onClick={() => handleClick(4)}>
-                                        <button className={isActive.key == 4 ? "accordion-button " : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">Which keywords should I use for my Google Ads
-                                            campaigns?</button>
-                                    </h2>
-                                    <div className={isActive.key == 4 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} id="flush-collapseFour" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFAQS">
-                                        <div className="accordion-body">Discover what sets this apart as the market's easiest
-                                            and most powerful video interviewing platform, and why hiring managers
-                                            consistently choose us over the competition. Discover what sets this apart as
-                                            the market's easiest and most powerful video interviewing platform, and why
-                                            hiring managers consistently choose us over the competition</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="box-content-ready">
+                        <h2 className="mb-20 text-48-semibold">Ready to get started?</h2>
+                        <p className="text-lg neutral-700 mb-40">Start conquering the heights of your business career with our
+                            platform. Join the community of more than +5000 successful businesses.</p><Link className="btn btn-brand-4" href="#">Get Started
+                            <svg width={23} height={8} viewBox="0 0 23 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22.5 3.99934L18.9791 0.478516V3.30642H0.5V4.69236H18.9791V7.52031L22.5 3.99934Z" fill="true" />
+                            </svg></Link>
                     </div>
                 </div>
             </section>
