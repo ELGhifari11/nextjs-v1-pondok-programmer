@@ -1,5 +1,6 @@
 
 import Link from 'next/link'
+import LogoTicker from '@/components/elements/LogoTicker'
 
 export default function Section11() {
     return (
@@ -7,6 +8,10 @@ export default function Section11() {
 
             <section className="section-box box-ready-started">
                 <div className="container">
+                        <div className="carouselTickerLogos2 carouselTicker_vertical" id="slide-logos">
+                            <LogoTicker />
+                        </div>
+                        <br />
                     <div className="box-content-ready">
                         <h2 className="mb-20 text-48-semibold">Ready to get started?</h2>
                         <p className="text-lg neutral-700 mb-40">Start conquering the heights of your business career with our
