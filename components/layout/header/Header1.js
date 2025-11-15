@@ -123,13 +123,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                                                 </div>
                                             </div>
                                         </li> */}
-                                        <li className="has-children"><Link href="/blog">Blog</Link>
-                                            {/* <ul className="sub-menu">
+                                        {/* <li className="has-children"><Link href="/blog">Blog</Link>
+                                            <ul className="sub-menu">
                                                 <li><Link href="/blog">Blog V1</Link></li>
                                                 <li><Link href="/blog-2">Blog V2</Link></li>
                                                 <li><Link href="/blog-post">Blog post</Link></li>
-                                            </ul> */}
-                                        </li>
+                                            </ul>
+                                        </li> */}
                                         <li className="has-children"><Link href="/contact">Contact</Link></li>
                                     </ul>
                                 </nav>
