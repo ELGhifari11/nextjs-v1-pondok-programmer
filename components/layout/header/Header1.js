@@ -25,7 +25,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                         <div className="header-left">
                             <div className="header-logo">
                                 <Link className="d-flex" href="/">
-                                    <img alt="Nivia" src={`/assets/imgs/template/${logoWhite ? "logo" : "logo-black"}.svg`} />
+                                    <img alt="Pondok Programmer" src={`/assets/imgs/template/${logoWhite ? "logo" : "logo-black"}.svg`} />
                                 </Link>
                             </div>
                             <div className="header-nav">
