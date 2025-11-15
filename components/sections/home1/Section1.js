@@ -21,10 +21,10 @@ export default function Section1() {
                             </p>
                             <div className="box-download-app justify-content-center">
                                 <Link href="#">
-                                    <img src="/assets/imgs/page/homepage6/googleplay.png" alt="Google Play" />
+                                    <img style={{ width: '170px' }} src="/assets/imgs/page/homepage1/loveable.svg" alt="Google Play" />
                                 </Link>
                                 <Link href="#">
-                                    <img src="/assets/imgs/page/homepage6/appstore.png" alt="App Store" />
+                                    <img style={{ width: '170px' }} src="/assets/imgs/page/homepage1/trusted.svg" alt="App Store" />
                                 </Link>
                             </div>
                         </div>
