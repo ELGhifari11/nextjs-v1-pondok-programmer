@@ -9,10 +9,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                     <div className="top-bar">
                         <div className="container">
                             <div className="top-bar-inner">
-                                <div className="box-top-bar-left"><span className="address-icon text-md">9207 Lakeshore RdShreveport</span>
+                                <div className="box-top-bar-left">
+                                    <a className='map-icon text-md' href="https://maps.google.com/?q=Pondok+Programmer+Yogyakarta" target="_blank" rel="noopener noreferrer">
+                                        <i className="fi fi-rr-marker" /> Pondok Programmer Yogyakarta
+                                    </a>
                                 </div>
-                                <div className="box-top-bar-right"><a className="phone-icon text-md" href="tel:(262) 555-0131">(262)
-                                    555-0131</a><a className="email-icon text-md" href="mailto:contact@nivia.com">contact@nivia.com</a></div>
+                                <div className="box-top-bar-right"><a className="phone-icon text-md" target="_blank" rel="noopener noreferrer" href="https://wa.me/6289502433722">(895)
+                                    0243-3722</a><a className="email-icon text-md" href="mailto:pondokprogrammer@gmail.com">pondokprogrammer@gmail.com</a></div>
                             </div>
                         </div>
                     </div>
@@ -28,7 +31,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                             <div className="header-nav">
                                 <nav className="nav-main-menu d-none d-xl-block">
                                     <ul className="main-menu">
-                                        <li className="has-children"><Link className="active" href="/index-3">Home</Link>
+                                        <li className="has-children"><Link className="active" href="/">Home</Link>
                                             {/* <ul className="sub-menu">
                                                 <li><Link href="/">Business Solutions</Link></li>
                                                 <li><Link href="/index-2">Marketing App</Link></li>
