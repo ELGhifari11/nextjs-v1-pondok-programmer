@@ -14,11 +14,11 @@ export default function Section9() {
   <div className="container">
     <div className="d-flex align-items-end justify-content-between box-head-plan mb-65">
       <h2 className="heading-2">
-        Choose the Right Engagement<br className="d-none d-lg-block" /> for Your Product Journey
+        Choose the Right Engagement<br className="d-none d-lg-block" /> for Your Requirements
       </h2>
       <div className="box-button-plan">
         <div className="box-buttons-feature-4">
-          <Link className="btn btn-black" href="/contact">
+          <Link className="btn btn-black" style={{borderRadius: 7}} href="/contact">
             Get a Quote
             <svg width={22} height={8} viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M22 3.99934L18.4791 0.478516V3.30642H0V4.69236H18.4791V7.52031L22 3.99934Z" fill="currentColor" />
