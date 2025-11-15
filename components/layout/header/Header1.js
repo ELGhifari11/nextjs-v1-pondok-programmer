@@ -43,7 +43,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                                         </li>
                                         <li className="has-children"><Link href="/about">About</Link></li>
                                         <li className="has-children"><Link href="/service">Services</Link></li>
-                                        <li className="mega-li has-children"><Link href="#">Pages</Link>
+                                        {/* <li className="mega-li has-children"><Link href="#">Pages</Link>
                                             <div className="mega-menu">
                                                 <div className="mega-menu-inner">
                                                     <div className="row">
@@ -78,7 +78,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                                                                         </div>
                                                                         <div className="col-lg-6">
                                                                             <ul>
-                                                                                <li><Link href="/blog">Blog V1</Link></li>
+                                                                                <li><Link href="/blog">Blog</Link></li>
                                                                                 <li><Link href="/blog-2">Blog V2</Link></li>
                                                                                 <li><Link href="/blog-post">Blog post</Link></li>
                                                                                 <li><Link href="/feature">Features V1</Link></li>
@@ -122,13 +122,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                                                     </div>
                                                 </div>
                                             </div>
-                                        </li>
+                                        </li> */}
                                         <li className="has-children"><Link href="/blog">Blog</Link>
-                                            <ul className="sub-menu">
+                                            {/* <ul className="sub-menu">
                                                 <li><Link href="/blog">Blog V1</Link></li>
                                                 <li><Link href="/blog-2">Blog V2</Link></li>
                                                 <li><Link href="/blog-post">Blog post</Link></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         <li className="has-children"><Link href="/contact">Contact</Link></li>
                                     </ul>
@@ -136,8 +136,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                             </div>
                         </div>
                         <div className="header-right">
-                            <SearchForm />
-                            <Link className="btn btn-brand-4-medium hover-up" href="#">Get Started
+                            {/* <SearchForm /> */}
+                            <Link className="btn btn-brand-4-medium hover-up" href="https://wa.me/6289502433722" target="_blank" rel="noopener noreferrer">
+                                Yuk Collab
                                 <svg width={22} height={22} viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M22 11.0003L18.4791 7.47949V10.3074H0V11.6933H18.4791V14.5213L22 11.0003Z" fill="true">
                                     </path>
