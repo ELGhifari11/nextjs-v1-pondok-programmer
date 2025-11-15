@@ -15,7 +15,7 @@ const urban = Urbanist({
 export const metadata = {
   title: 'Pondok Programmer | Software Engineering Agency',
   description: 'Build your digital product with the Pondok Programmer engineering team.',
-  icons: { icon: '/favicon.ico' },
+  icons: { icon: '/favicon.png' },
   openGraph: {
     title: 'Pondok Programmer',
     description: 'Software Engineering Agency',
