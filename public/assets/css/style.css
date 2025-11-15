@@ -6797,12 +6797,13 @@ a.icon-socials:hover {
 
 .box-logos-2 {
   padding: 30px 0px;
+  margin-top: 70px;
   background-color: #ffffff;
 }
 
 .carouselTickerLogos2.carouselTicker_vertical .carouselTicker__item {
   height: 82px;
-  width: 160px;
+  width: 150px;
   text-align: center;
   margin-bottom: 0px;
   overflow: hidden;
