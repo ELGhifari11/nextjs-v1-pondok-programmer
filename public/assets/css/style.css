@@ -6698,6 +6698,14 @@ a.icon-socials:hover {
   margin-right: 12px;
 }
 
+.map-icon {
+  color: #C5FF41;
+  /* background: url(../imgs/template/icons/map.svg) no-repeat left center; */
+  padding: 0px 10px 0px 35px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
 .phone-icon {
   color: #C5FF41;
   background: url(../imgs/template/icons/phone.svg) no-repeat left center;
