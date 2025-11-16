@@ -7,7 +7,7 @@ export default function Service() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} headerCls="header-style-2 header-style-5" >
+            <Layout headerStyle={1} footerStyle={4} headerCls="header-style-2 header-style-5" >
                 <div>
                     <section className="section-box wow animate__animated animate__fadeIn box-we-know">
                         <div className="bg-we-know" />
