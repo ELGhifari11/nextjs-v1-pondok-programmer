@@ -68,8 +68,8 @@ export default function Section8() {
                                             <div className="internet-icon"><span /> What You Get</div>
                                             <h2 className="heading-2 mb-20">Launch fast. Look professional. Be trustworthy.</h2>
                                             <p className="text-lg neutral-700">
-                                                Company profile, landing page, atau microsite—dibangun cepat, rapi, dan mudah dikelola.
-                                                Santri-engineers memastikan tampilan bersih dan pesan yang amanah.
+                                                Company profile, landing page, or microsite—built fast, clean, and easy to manage.
+                                                Our student-engineers ensure a polished look and trustworthy messaging.
                                             </p>
                                             <div className="box-list-check">
                                                 <ul className="list-check">
@@ -93,7 +93,7 @@ export default function Section8() {
                                             <div className="internet-icon"><span /> What You Get</div>
                                             <h2 className="heading-2 mb-20">Cross-platform apps, built with care</h2>
                                             <p className="text-lg neutral-700">
-                                                Dari MVP sampai scale-up: arsitektur modular, UI konsisten, dan praktik amanah pada data pengguna.
+                                                From MVP to scale-up: modular architecture, consistent UI, and secure data practices.
                                             </p>
                                             <div className="box-list-check">
                                                 <ul className="list-check">
@@ -116,7 +116,7 @@ export default function Section8() {
                                             <div className="internet-icon"><span /> What You Get</div>
                                             <h2 className="heading-2 mb-20">Custom systems for real operations</h2>
                                             <p className="text-lg neutral-700">
-                                                Kami membangun sistem internal yang menyatukan proses bisnis Anda—terukur, aman, dan terdokumentasi.
+                                                We build internal systems that unify your business processes—measurable, secure, and fully documented.
                                             </p>
                                             <div className="box-list-check">
                                                 <ul className="list-check">
@@ -146,7 +146,7 @@ export default function Section8() {
                                             <div className="internet-icon"><span /> What You Get</div>
                                             <h2 className="heading-2 mb-20">Design that respects users</h2>
                                             <p className="text-lg neutral-700">
-                                                Prinsip kami: bermanfaat dan jujur. Desain melayani kebutuhan pengguna sekaligus tujuan bisnis.
+                                                Our principle: useful and honest. Design serves user needs while meeting business goals.
                                             </p>
                                             <div className="box-list-check">
                                                 <ul className="list-check">
@@ -169,7 +169,7 @@ export default function Section8() {
                                             <div className="internet-icon"><span /> What You Get</div>
                                             <h2 className="heading-2 mb-20">Dedicated remote team you can trust</h2>
                                             <p className="text-lg neutral-700">
-                                                Talenta santri yang disiplin & komunikatif siap memperkuat tim Anda—fleksibel dengan proses dan zona waktu.
+                                                Disciplined, communicative talent ready to strengthen your team—flexible with your process and time zone.
                                             </p>
                                             <div className="box-list-check">
                                                 <ul className="list-check">
