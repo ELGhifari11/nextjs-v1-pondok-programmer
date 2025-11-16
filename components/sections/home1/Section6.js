@@ -3,11 +3,11 @@ export default function Section6() {
     return (
         <>
 
-            <section className="section-box box-our-working">
+            <section id="our-working-process"  className="section-box box-our-working">
                 <div className="container">
                     <div className="text-center">
                         <p className="text-22-bold mb-15">How It Works</p>
-                        <h2 className="text-48-semibold neutral-1000 mb-35">Our Working Process</h2>
+                        <h2 className="text-48-semibold neutral-1000 mb-35" >Our Working Process</h2>
                         <p className="text-xl neutral-700">
                             A clear, ethical, and outcomes-driven flow—from discovery to launch—so your product ships on time,
                             scales with confidence, and truly benefits its users.
