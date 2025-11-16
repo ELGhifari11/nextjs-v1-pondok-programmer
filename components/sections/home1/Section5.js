@@ -10,7 +10,7 @@ export default function Section5() {
                     <div className="row align-items-end">
                         <div className="col-lg-7 mb-30">
                             <h2 className="heading-1 neutral-0">
-                                Let’s Double PRO Guyss! <br /> With Us Handle <span className="text-bg-brand-4 neutral-1000">PROJECT</span> & <span className="text-bg-brand-4 neutral-1000">PRODUCT</span>                       </h2>
+                                Let’s Double PRO Guyss! <br /> With Us Handle Software Base On <span className="text-bg-brand-4 neutral-1000">PROJECT</span> + <span className="text-bg-brand-4 neutral-1000">PRODUCT</span>                       </h2>
                         </div>
                         <div className="col-lg-5 mb-30">
                             <p className="text-xl neutral-700">
