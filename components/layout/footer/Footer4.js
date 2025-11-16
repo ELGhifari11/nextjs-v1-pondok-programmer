@@ -92,8 +92,8 @@ export default function Footer4() {
                                 <a className="icon-socials icon-youtube" href="https://www.youtube.com/pondokprogrammer">
                                     <img alt="Pondok Programmer" style={{ width: '20px', height: '20px' }} src="/assets/imgs/template/icons/yt.svg" />
                                 </a>
-                                <a className="icon-socials icon-telegram" href="https://t.me/pondokprogrammer">
-                                    <img alt="Pondok Programmer" style={{ width: '20px', height: '20px' }} src="/assets/imgs/template/icons/tel.svg" />
+                                <a className="icon-socials icon-tiktok" href="https://www.tiktok.com/@pondokprogrammer">
+                                    <img alt="Pondok Programmer" style={{ width: '20px', height: '20px' }} src="/assets/imgs/template/icons/tik.svg" />
                                 </a>
                                 <a className="icon-socials icon-linkedin" href="https://www.linkedin.com/company/pondokprogrammer">
                                     <img alt="Pondok Programmer" style={{ width: '20px', height: '20px' }} src="/assets/imgs/template/icons/in.svg" />
