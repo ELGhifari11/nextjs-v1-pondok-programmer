@@ -12,7 +12,7 @@ export default function About() {
     return (
         <>
             <ResizeContainer />
-            <Layout headerStyle={1} footerStyle={1} headerCls="header-style-2 header-style-4" >
+            <Layout headerStyle={1} footerStyle={4} headerCls="header-style-2 header-style-4" >
                 <div>
                     <section className="section-box box-about-section-1">
                         <div className="container-fluid">
