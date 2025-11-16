@@ -5,14 +5,12 @@ export default function Section5() {
     return (
         <>
 
-            <section className="section-box box-companion">
+            <section id="project-product" className="section-box box-companion">
                 <div className="container">
                     <div className="row align-items-end">
                         <div className="col-lg-7 mb-30">
                             <h2 className="heading-1 neutral-0">
-                                Project &  Product &nbsp;
-                                <span className="text-bg-brand-4 neutral-1000">Development </span>
-                            </h2>
+                                Let’s Double PRO Guyss! <br /> With Us Handle <span className="text-bg-brand-4 neutral-1000">PROJECT</span> & <span className="text-bg-brand-4 neutral-1000">PRODUCT</span>                       </h2>
                         </div>
                         <div className="col-lg-5 mb-30">
                             <p className="text-xl neutral-700">
@@ -66,7 +64,7 @@ export default function Section5() {
                                         </a>
                                         <p className="text-md neutral-200">
                                             Secure deployment, monitoring, fixes, and updates. We keep your product valuable.
-                                            </p>
+                                        </p>
                                     </div>
                                 </div>
 
