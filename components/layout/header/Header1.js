@@ -1,12 +1,15 @@
 import Link from 'next/link'
 import SearchForm from './SearchForm'
+import { useState } from 'react'
+
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar, headerCls, logoWhite }) {
+
     return (
         <>
             <header className={`header ${headerCls ? headerCls : ""} sticky-bar ${scroll ? "stick" : ""}`}>
-                {topBar &&
-                    <div className="top-bar">
+                {/* {topBar &&
+                    <div className="top-bar d-none d-lg-block">
                         <div className="container">
                             <div className="top-bar-inner">
                                 <div className="box-top-bar-left">
@@ -19,7 +22,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                             </div>
                         </div>
                     </div>
-                }
+                } */}
                 <div className="container">
                     <div className="main-header">
                         <div className="header-left">
@@ -31,18 +34,29 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                             <div className="header-nav">
                                 <nav className="nav-main-menu d-none d-xl-block">
                                     <ul className="main-menu">
-                                        <li className="has-children"><Link className="active" href="/">Home</Link>
-                                            {/* <ul className="sub-menu">
+                                        {/* <li className="has-children"><Link className="active" href="/">Home</Link>
+                                            <ul className="sub-menu">
                                                 <li><Link href="/">Business Solutions</Link></li>
                                                 <li><Link href="/index-2">Marketing App</Link></li>
                                                 <li><Link href="/index-3">Web Agency</Link></li>
                                                 <li><Link href="/index-4">Digital Agency</Link></li>
                                                 <li><Link href="/index-5">3D Products</Link></li>
                                                 <li><Link href="/index-6">AI Platform</Link></li>
-                                            </ul> */}
+                                            </ul>
+                                        </li> */}
+                                        <li className="has-children"><Link href="#bootcamp">Bootcamp</Link></li>
+                                        <li className="has-children"><Link href="#project-product">Double Pro</Link></li>
+                                        <li className="has-children">
+                                            <Link href="#services">Services</Link>
+                                            <ul className="sub-menu">
+                                                <li><Link  href="#services">Simple Web</Link></li>
+                                                <li><Link  href="#services">Mobile Apps</Link></li>
+                                                <li><Link  href="#services">Develop Systems</Link></li>
+                                                <li><Link  href="#services">UI/UX Design</Link></li>
+                                                <li><Link  href="#services">Outsourcing</Link></li>
+                                            </ul>
                                         </li>
-                                        <li className="has-children"><Link href="/about">About</Link></li>
-                                        <li className="has-children"><Link href="/service">Services</Link></li>
+
                                         {/* <li className="mega-li has-children"><Link href="#">Pages</Link>
                                             <div className="mega-menu">
                                                 <div className="mega-menu-inner">
@@ -123,14 +137,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                                                 </div>
                                             </div>
                                         </li> */}
-                                        {/* <li className="has-children"><Link href="/blog">Blog</Link>
+                                        <li className="has-children"><Link href="">About Us</Link>
                                             <ul className="sub-menu">
-                                                <li><Link href="/blog">Blog V1</Link></li>
-                                                <li><Link href="/blog-2">Blog V2</Link></li>
-                                                <li><Link href="/blog-post">Blog post</Link></li>
+                                                <li><Link href="#our-working-process">Work Flow</Link></li>
+                                                <li><Link href="#faq">FAQ</Link></li>
+                                                <li><Link href="#find-us">Find Us</Link></li>
                                             </ul>
-                                        </li> */}
-                                        <li className="has-children"><Link href="/contact">Contact</Link></li>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
