@@ -76,9 +76,29 @@ export default function Footer4() {
                         </div>
                         <div className="col-lg-3 col-md-4 col-xs-6 text-start text-md-end">
                             <div className="text-start d-inline-block mt-30">
-                                <p className="text-lg title-follow neutral-0">Follow us
-                                </p><div className="box-socials-footer" /><a className="icon-socials icon-facebook" href="#"><img alt="Nivia" src="/assets/imgs/template/icons/fb.svg" /></a><a className="icon-socials icon-instagram" href="#"><img alt="Nivia" src="/assets/imgs/template/icons/in.svg" /></a><a className="icon-socials icon-twitter" href="#"><img alt="Nivia" src="/assets/imgs/template/icons/tw.svg" /></a><a className="icon-socials icon-be" href="#"><img alt="Nivia" src="/assets/imgs/template/icons/be.svg" /></a>
-                                <p />
+                                <p className="text-lg title-follow neutral-0">
+                                    Follow us
+                                </p>
+                                <div className="box-socials-footer" />
+                                <a className="icon-socials icon-facebook" href="https://www.facebook.com/pondokprogrammer">
+                                    <img alt="Pondok Programmer" style={{ width: '20px', height: '20px' }} src="/assets/imgs/template/icons/fb.svg" />
+                                </a>
+                                <a className="icon-socials icon-instagram" href="https://www.instagram.com/pondokprogrammer">
+                                    <img alt="Pondok Programmer" style={{ width: '20px', height: '20px' }} src="/assets/imgs/template/icons/ig.svg" />
+                                </a>
+                                <a className="icon-socials icon-github" href="https://github.com/pondokprogrammer">
+                                    <img alt="Pondok Programmer" style={{ width: '25px', height: '25px' }} src="/assets/imgs/template/icons/git.svg" />
+                                </a>
+                                <a className="icon-socials icon-youtube" href="https://www.youtube.com/pondokprogrammer">
+                                    <img alt="Pondok Programmer" style={{ width: '20px', height: '20px' }} src="/assets/imgs/template/icons/yt.svg" />
+                                </a>
+                                <a className="icon-socials icon-telegram" href="https://t.me/pondokprogrammer">
+                                    <img alt="Pondok Programmer" style={{ width: '20px', height: '20px' }} src="/assets/imgs/template/icons/tel.svg" />
+                                </a>
+                                <a className="icon-socials icon-linkedin" href="https://www.linkedin.com/company/pondokprogrammer">
+                                    <img alt="Pondok Programmer" style={{ width: '20px', height: '20px' }} src="/assets/imgs/template/icons/in.svg" />
+                                </a>
+                                <p/>
                             </div>
                         </div>
                     </div>
