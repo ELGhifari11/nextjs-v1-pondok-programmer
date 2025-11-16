@@ -5,7 +5,7 @@ export default function Section2() {
     return (
         <>
 
-            <section className="section-box wow animate__animated animate__fadeIn box-our-features-3">
+            <section id='section2' className="section-box wow animate__animated animate__fadeIn box-our-features-3">
                 <div className="container">
                     <div className="block-our-features-3">
                         <div className="lists-our-features mt-35">
