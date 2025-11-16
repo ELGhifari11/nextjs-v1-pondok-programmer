@@ -48,8 +48,8 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                             <span className="menu-expand" onClick={() => handleToggle(1)}></span>
 
                                             <Link  onClick={() => handleMobileMenu()} href="/">Home</Link>
-
-                                            {/* <ul className="sub-menu" style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
+{/* 
+                                            <ul className="sub-menu" style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
                                                 <li><Link href="/">Business Solutions</Link></li>
                                                 <li><Link href="/index-2">Marketing App</Link></li>
                                                 <li><Link href="/index-3">Web Agency</Link></li>
@@ -61,27 +61,30 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
 
                                         <li><Link  onClick={() => handleMobileMenu()} href="#bootcamp">Bootcamp</Link></li>
                                         <li><Link  onClick={() => handleMobileMenu()} href="#project-product">Double Pro</Link></li>
-                                        <li><Link  onClick={() => handleMobileMenu()} href="#services">Services</Link></li>
-                                        <li><Link  onClick={() => handleMobileMenu()} href="#faq">Faq</Link></li>
-                                        <li><Link  onClick={() => handleMobileMenu()} href="#find-us">Find Us</Link></li>
+
+                                        
+                                        <li className="has-children">
+                                            <span className="menu-expand" onClick={() => handleToggle(3)}><i className="fi-rr-angle-small-down" /></span>
+                                            <Link href="#services">Services</Link>
+                                            <ul className="sub-menu" style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
+                                                <li><Link onClick={() => handleMobileMenu()} href="#services">Simple Web</Link></li>
+                                                <li><Link onClick={() => handleMobileMenu()} href="#services">Mobile Apps</Link></li>
+                                                <li><Link onClick={() => handleMobileMenu()} href="#services">Develop Systems</Link></li>
+                                                <li><Link onClick={() => handleMobileMenu()} href="#services">UI/UX Design</Link></li>
+                                                <li><Link onClick={() => handleMobileMenu()} href="#services">Outsourcing</Link></li>
+                                            </ul>
+                                        </li>
+                                      
 
                                         <li className={isActive.key == 2 ? "has-children active" : "has-children"}>
-                                            {/* <span className="menu-expand" onClick={() => handleToggle(2)}><i className="fi-rr-angle-small-down" /></span>
+                                            <span className="menu-expand" onClick={() => handleToggle(2)}><i className="fi-rr-angle-small-down" /></span>
 
-                                            <Link href="#">Inner Pages</Link>
+                                            <Link href="">About Us</Link>
                                             <ul className="sub-menu" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                                                <li><Link href="/about">About Us</Link></li>
-                                                <li><Link href="/service">Our Services</Link></li>
-                                                <li><Link href="/pricing">Pricing Plan</Link></li>
-                                                <li><Link href="/help">Help Center</Link></li>
-                                                <li><Link href="/integration">Integrations</Link></li>
-                                                <li><Link href="/careers">Careers</Link></li>
-                                                <li><Link href="/job-detail">Job details</Link></li>
-                                                <li><Link href="/feature">Features V1</Link></li>
-                                                <li><Link href="/feature-2">Features V2</Link></li>
-                                                <li><Link href="/feature-3">Features V3</Link></li>
-                                                <li><Link href="/contact">Contact us</Link></li>
-                                            </ul> */}
+                                                <li><Link  onClick={() => handleMobileMenu()} href="#our-working-process">Work Flow</Link></li>
+                                                <li><Link  onClick={() => handleMobileMenu()} href="#faq">FAQ</Link></li>
+                                                <li><Link  onClick={() => handleMobileMenu()} href="#find-us">Find Us</Link></li>
+                                            </ul>
                                         </li>
                                         {/* <li className={isActive.key == 3 ? "has-children active" : "has-children"}>
                                             <span className="menu-expand" onClick={() => handleToggle(3)}><i className="fi-rr-angle-small-down" /></span>
@@ -122,7 +125,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                     <li><Link href="/login">Sign Out</Link></li>
                                 </ul>
                             </div> */}
-                            <div className="mobile-social-icon mb-50">
+                            <div className="mobile-social-icon mb-50 mt-50">
                                
                                 <h6 className="mb-25">Follow Us</h6>
                                 <Link className="icon-socials icon-facebook" href="https://www.facebook.com/pondokprogrammer">
