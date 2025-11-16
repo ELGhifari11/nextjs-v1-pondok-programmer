@@ -11,9 +11,11 @@ export default function Section1() {
                             <div className="img-bg" />
                             <div className="blur-bg blur-move" />
                             <h1 className="display-2 mb-25">
-                                A Muslim Community of  <br className="d-none d-lg-block" />
-                                <span className="text-bg-brand-4"> IT Generations</span> with
-                                <br className="d-none d-lg-block" /> Noble Character & Professionalism
+                                Muslim Community Of
+                                <br className="d-none d-lg-block" />
+                                <span className="text-bg-brand-4">IT Generations</span>
+                                <br className="d-none d-lg-block" />
+                               With Integrity & Profesional
                             </h1>
                             <p className="text-lg mb-25">
                                 A pesantren-based IT community that educates students to become professionals
