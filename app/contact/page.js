@@ -17,7 +17,7 @@ export default function Contact() {
                                 <div className="text-center">
                                     <nav className="container-breadcrumb">
                                         <ul className="breadcrumb">
-                                            <li className="breadcrumb-item"><Link href="#">Home</Link></li>
+                                            <li className="breadcrumb-item"><Link href="/">Home</Link></li>
                                             <li className="breadcrumb-item active" aria-current="page">Contact Us</li>
                                         </ul>
                                     </nav>
@@ -29,44 +29,76 @@ export default function Contact() {
                                         <h3 className="mb-20 mt-20">To make requests for further information, contact us via our social channels.</h3>
                                         <p className="text-md neutral-700">Contact us below and we will get back to you shortly.</p>
                                         <div className="row mt-50">
+                                            {/* Address */}
                                             <div className="col-lg-12">
                                                 <div className="card-feature-2">
-                                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/marketing.svg" /></div>
+                                                    <div className="card-image">
+                                                        <img src="/assets/imgs/page/homepage3/marketing.svg" alt="Address" />
+                                                    </div>
                                                     <div className="card-info">
                                                         <h3 className="text-22-bold">Address</h3>
-                                                        <p className="text-md neutral-700">4517 Washington Ave. Manchester, Kentucky 39495 58 Howard Street #2 San Francisco, CA 941</p>
+                                                        <p className="text-md neutral-700">
+                                                            Gegunung, Tirtohargo, Kretek, Bantul,<br />
+                                                            Daerah Istimewa Yogyakarta 55772 — Indonesia
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            {/* Phone / WhatsApp */}
                                             <div className="col-lg-12">
                                                 <div className="card-feature-2">
-                                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/digital.svg" /></div>
+                                                    <div className="card-image">
+                                                        <img src="/assets/imgs/page/homepage3/digital.svg" alt="Phone & WhatsApp" />
+                                                    </div>
                                                     <div className="card-info">
                                                         <h3 className="text-22-bold">Phone</h3>
                                                         <div className="text-md neutral-700">
                                                             <div className="row">
-                                                                <div className="col-sm-6"><Link href="/tel:+1(800)9684021">+1 (800) 968-40-21</Link><br /><Link href="/tel:+(406)5550120">+(406) 555-0120</Link></div>
-                                                                <div className="col-sm-6"><Link href="/tel:+1(800)9684021">(+68)1221 09876</Link><br /><Link href="/tel:+(406)5550120">(+47)1221 09878</Link></div>
+                                                                <div className="col-sm-6">
+                                                                    <Link href="tel:+6285228802828">+62 852-2880-2828</Link><br />
+                                                                    <span className="neutral-600">WhatsApp:</span>{" "}
+                                                                    <Link href="https://wa.me/6285228802828" target="_blank" rel="noopener noreferrer">
+                                                                        wa.me/6285228802828
+                                                                    </Link>
+                                                                </div>
+                                                                <div className="col-sm-6">
+                                                                    <span className="neutral-600">Office Hours:</span><br />
+                                                                    Mon–Sun, 06:00 – 20:00 WIB
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            {/* Email */}
                                             <div className="col-lg-12">
                                                 <div className="card-feature-2">
-                                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/digital.svg" /></div>
+                                                    <div className="card-image">
+                                                        <img src="/assets/imgs/page/homepage3/digital.svg" alt="Email" />
+                                                    </div>
                                                     <div className="card-info">
                                                         <h3 className="text-22-bold">Email</h3>
                                                         <div className="text-md neutral-700">
                                                             <div className="row">
-                                                                <div className="col-sm-6"><Link className="neutral-700" href="/mailto:sale@nivia.com">sale@nivia.com</Link></div>
-                                                                <div className="col-sm-6"><Link className="neutral-700" href="/mailto:contact@nivia.com">contact@nivia.com</Link></div>
+                                                                <div className="col-sm-6">
+                                                                    <Link className="neutral-700" href="mailto:pondokprogrammer@gmail.com">
+                                                                        pondokprogrammer@gmail.com
+                                                                    </Link>
+                                                                </div>
+                                                                <div className="col-sm-6">
+                                                                    <Link className="neutral-700" href="mailto:partnerships@pondokprogrammer.com">
+                                                                        partnerships@pondokprogrammer.com
+                                                                    </Link>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+
                                     </div>
                                     <div className="col-lg-6 text-center"><img src="/assets/imgs/page/contact/img-contact.png" /></div>
                                 </div>
@@ -79,9 +111,8 @@ export default function Contact() {
                                 <div className="col-lg-6 mb-30">
                                     <div className="block-map">
                                         <div className="box-map">
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.2527999867!2d-74.14448761897569!3d40.6976312333577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2zVGjDoG5oIHBo4buRIE5ldyBZb3JrLCBUaeG7g3UgYmFuZyBOZXcgWW9yaywgSG9hIEvhu7M!5e0!3m2!1svi!2s!4v1697559878485!5m2!1svi!2s" width={600} height={450} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35065.35592615759!2d110.2572906743164!3d-7.996249699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a56e7f763c331%3A0xa1d804786b054aa6!2sPondok%20Programmer!5e1!3m2!1sid!2sus!4v1763267296923!5m2!1sid!2sus" width={600} height={450} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                                         </div>
-                                        <p className="text-md neutral-600 text-center">Hours: 8:00 - 17:00, Mon - Sat </p>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 mb-30"><Link className="btn btn-brand-4-sm" href="#">Contact Us</Link>
@@ -102,7 +133,7 @@ export default function Contact() {
                                             <div className="form-group">
                                                 <label htmlFor="fullname">
                                                     Message *</label>
-                                                <textarea className="form-control" rows={7} placeholder="How can we help you?" />
+                                                <textarea className="form-control" rows={3} placeholder="How can we help you?" />
                                             </div>
                                             <div className="form-group">
                                                 <button className="btn btn-black btn-rounded" type="submit">Send Message
