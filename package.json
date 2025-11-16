@@ -1,11 +1,12 @@
 {
-    "name": "pondok-programmer",
+    "name": "web-pondok-programmer",
     "version": "0.1.0",
     "private": true,
-    "author":"Pondok Programmer Batch 16",
+    "author": "Santri Pondok Programmer Batch 16",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
+        "export": "next export",
         "start": "next start",
         "lint": "next lint",
         "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
