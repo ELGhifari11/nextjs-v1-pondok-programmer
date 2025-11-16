@@ -1,8 +1,8 @@
 {
-    "name": "nivia",
+    "name": "pondok-programmer",
     "version": "0.1.0",
     "private": true,
-    "authoe":"alithemes",
+    "author":"Pondok Programmer Batch 16",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
