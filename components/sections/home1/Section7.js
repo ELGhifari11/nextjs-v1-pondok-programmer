@@ -6,7 +6,7 @@ export default function Section7() {
     return (
         <>
 
-            <section className="section-box box-lead">
+            <section  className="section-box box-lead">
                 <div className="container">
                     <div className="box-lead-inner">
                         <div className="row">
