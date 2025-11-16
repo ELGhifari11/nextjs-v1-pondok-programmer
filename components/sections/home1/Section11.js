@@ -5,8 +5,7 @@ import LogoTicker from '@/components/elements/LogoTicker'
 export default function Section11() {
     return (
         <>
-
-            <section className="section-box box-ready-started">
+            <section id='find-us' className="section-box box-ready-started">
                 <div className="container">
                         <div className="carouselTickerLogos2 carouselTicker_vertical" id="slide-logos">
                             <LogoTicker />
@@ -21,7 +20,30 @@ export default function Section11() {
                             </svg></Link>
                     </div>
                 </div>
+
+                 <div style={{marginTop: 70}} className="container">
+                    <div className="box-map-wrapper">
+                        <div className="box-map-header">
+                            <h3 className="text-32-bold neutral-900 mb-10">Find us here</h3>
+                            <p className="text-md neutral-600 mb-30">Visit Pondok Programmer – our door’s always open for collaboration.</p>
+                        </div>
+                        <div className="box-map-iframe">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35065.35592615759!2d110.2572906743164!3d-7.996249699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a56e7f763c331%3A0xa1d804786b054aa6!2sPondok%20Programmer!5e1!3m2!1sid!2sus!4v1763267296923!5m2!1sid!2sus"
+                                width="100%"
+                                height={320}
+                                style={{ border: 0, borderRadius: 12 }}
+                                allowFullScreen
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                                title="Pondok Programmer Location"
+                                className="map-iframe"
+                            />
+                        </div>
+                    </div>
+                </div>
             </section>
+               
         </>
     )
 }
