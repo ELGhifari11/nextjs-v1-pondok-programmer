@@ -83,7 +83,7 @@ export default function Footer1() {
                                         <div className="text-center text-md-start">
                                             <div className="text-start d-inline-block">
                                                 <p className="text-lg title-follow neutral-0">Follow us
-                                                </p><div className="box-socials-footer"><Link className="icon-socials icon-facebook" href="#"><img alt="Nivia" src="/assets/imgs/template/icons/fb.svg" /></Link><Link className="icon-socials icon-instagram" href="#"><img alt="Nivia" src="/assets/imgs/template/icons/in.svg" /></Link><Link className="icon-socials icon-twitter" href="#"><img alt="Nivia" src="/assets/imgs/template/icons/tw.svg" /></Link><Link className="icon-socials icon-be" href="#"><img alt="Nivia" src="/assets/imgs/template/icons/be.svg" /></Link></div>
+                                                </p><div className="box-socials-footer"><Link className="icon-socials icon-facebook" href="#"><img alt="Pondok Programmer" src="/assets/imgs/template/icons/fb.svg" /></Link><Link className="icon-socials icon-instagram" href="#"><img alt="Pondok Programmer" src="/assets/imgs/template/icons/in.svg" /></Link><Link className="icon-socials icon-be" href="#"><img alt="Pondok Programmer" src="/assets/imgs/template/icons/be.svg" /></Link></div>
                                                 <p />
                                             </div>
                                         </div>
