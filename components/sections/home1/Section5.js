@@ -28,7 +28,7 @@ export default function Section5() {
 
                         <div className="col-lg-6">
                             <h2 className="heading-2 neutral-0 mb-20">
-                                From business needs to a ready-to-use product
+                                From business needs to a ready-to-use systems
                             </h2>
                             <p className="text-lg neutral-200">
                                 Our santri-engineer team applies industry best practices, tidy collaboration, and trustworthy communication. Our focus is simple: design, build, and release solutions that are stable, measurable, and easy to maintain.
