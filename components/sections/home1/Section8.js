@@ -1,15 +1,16 @@
 'use client'
 import Link from 'next/link'
 import { useState } from "react"
+
 export default function Section8() {
-    const [activeIndex, setActiveIndex] = useState(1)
+    const [activeIndex, setActiveIndex] = useState( 1)
     const handleOnClick = (index) => {
-        setActiveIndex(index)
+            setActiveIndex(index)
     }
     return (
         <>
 
-            <section className="section-box box-preparing">
+            <section id="services" className="section-box box-preparing">
                 <div className="box-preparing-inner">
                     <div className="container">
                         <div className="text-center">
@@ -61,7 +62,7 @@ export default function Section8() {
                         <div className="block-group-preparing">
                             <div className="tab-content">
                                 {/* 1. Simple Website */}
-                                <div className={activeIndex == 1 ? "tab-pane fade show active" : "tab-pane fade"} id="tab-1">
+                                <div className={activeIndex == 1  ? "tab-pane fade show active" : "tab-pane fade"} id="tab-1">
                                     <div className="item-preparing">
                                         <div className="item-preparing-left" />
                                         <div className="item-preparing-right">
